@@ -1,3 +1,8 @@
+// Set and Array are used to store collections of values, but they have different characteristics 
+// and use cases. 
+// Set is a collection of unique values. It automatically removes duplicate values.
+// Array can contain duplicate values.
+
 const setRollNum = new Set();
 setRollNum.add(10);
 setRollNum.add(20);

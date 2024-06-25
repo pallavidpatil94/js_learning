@@ -1,3 +1,5 @@
+// forEach method is used to execute a provided function once for each array element.
+// It does not create a new array or return a value.
 let array = [10, 20, 30, 40, 15];
 array.forEach((currecntvalue, index, array) => {
     console.log(currecntvalue,  index, array);

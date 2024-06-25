@@ -1,4 +1,4 @@
-// use for filter out this methos we can use
+// filter method is used to create a new array with all elements that pass a test provided by a function
 let array = [3, 6, 5, 2, 10, 7];
 const newArray = array.filter( (element)=>{
     return element%2==0;
