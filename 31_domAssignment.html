@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Assignment</title>
+</head>
+<body>
+    <main>
+        <div id="overview">
+            <h1>HTML & Javascripts are crucical technologies</h1>
+            <p>The web would not work without them...</p>
+        </div>
+        <div class="advantages">
+            <ul>
+                <li>Flexible</li>
+                <li>Magical</li>
+                <li>Available</li>
+            </ul>
+        </div>
+    </main>
+
+    <script>
+        const mainheading = document.querySelector("#overview h1");
+        console.log(mainheading);
+        const secAdventage = document.querySelector(".advantages ul li:nth-child(2)");
+        console.log(secAdventage);
+        const advDiv = document.querySelector(".advantages");
+        console.log(advDiv);
+    </script>
+</body>
+</html>
